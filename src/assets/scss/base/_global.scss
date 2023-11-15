@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}

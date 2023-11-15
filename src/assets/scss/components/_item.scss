@@ -1,0 +1,15 @@
+.draggable {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  flex: 1;
+
+  &.over {
+    background-color: #eaeaea;
+    * {
+      visibility: hidden;
+    }
+  }
+}

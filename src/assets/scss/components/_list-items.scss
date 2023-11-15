@@ -1,0 +1,40 @@
+@use "../abstracts/colors" as colors;
+
+.draggable-list {
+  border: 1px solid colors.$border-color;
+  color: colors.$text-color;
+  padding: 0;
+  list-style: none;
+
+  li {
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+
+    &:not(:last-of-type) {
+      border-bottom: 1px solid colors.$border-color;
+    }
+
+    &.right .person-name {
+      color: #3ae374;
+    }
+
+    &.wrong .person-name {
+      color: #ff3838;
+    }
+  }
+
+  .number {
+    background-color: colors.$background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .person-name {
+    margin: 0 20px 0 0;
+  }
+}
