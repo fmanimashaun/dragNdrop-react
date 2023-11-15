@@ -1,7 +1,7 @@
 # React Sortable Drag and Drop List Project
 
 ## Introduction
-This project is a React-based implementation of a sortable drag and drop list. It allows users to interact with elements on the page by clicking and dragging them to different locations within a list, effectively changing the order of the list items.
+This project is a React-based implementation of the [sortable drag and drop list project](https://github.com/fmanimashaun/dragNDrop). It allows users to interact with elements on the page by clicking and dragging them to different locations within a list, effectively changing the order of the list items.
 
 ## Technologies Used
 - **React**: Used for building the user interface.
